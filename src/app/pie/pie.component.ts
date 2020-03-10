@@ -43,9 +43,12 @@ export class PieComponent implements OnInit {
       min: 0
     },
     legend: {
-      align: "left",
+      align: "center",
       verticalAlign: "top",
-      borderWidth: 0
+      borderWidth: 0,
+      bubbleLegend: {
+        enabled: true
+      }
     },
     tooltip: {
       pointFormat:
