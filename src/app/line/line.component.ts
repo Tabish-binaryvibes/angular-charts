@@ -16,17 +16,17 @@ export class LineComponent implements OnInit {
     title: {
       text: "Solar Employment Growth by Sector, 2010-2016"
     },
-
+    chart: {
+      zoomType: "xy"
+    },
     subtitle: {
       text: "Source: thesolarfoundation.com"
     },
-
     yAxis: {
       title: {
         text: "Number of Employees"
       }
     },
-
     xAxis: {
       accessibility: {
         rangeDescription: "Range: 2010 to 2017"
